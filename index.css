@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ad1162, #750da6); 
+}
+
+.container {
+    width: 90%;
+    max-width: 600px; 
+    padding: 25px;
+    padding-top: 20px;
+    border-radius: 12px;
+    border: 3px solid #c44486;
+    background: #520e72;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f7eeee;
+}
+
+.container .location-div select {
+    padding: 10px;
+    box-shadow: none !important;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border: 2px solid #87118b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+select:focus {
+    border-color: #007bff;
+}
